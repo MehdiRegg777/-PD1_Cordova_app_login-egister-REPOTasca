@@ -1,4 +1,4 @@
-var users = {};
+var users = {mehdi: '123'};
 
 function validateRegisterForm() {
     var newUsername = document.getElementById('newUsername').value;
