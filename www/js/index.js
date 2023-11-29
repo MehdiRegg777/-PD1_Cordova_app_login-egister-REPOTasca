@@ -11,7 +11,6 @@ function validateRegisterForm() {
 
     if (newPassword !== confirmPassword) {
         alert("Las contraseñas no coinciden.");
-
     }
 
     users[newUsername] = newPassword;
